@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 86, 206);
+    font-family:  helvetica;
+}
+
+svg{
+    margin-top:15%;
+    background-color:white;
+    border-radius: 10px;
+}
+
+.bar{
+     fill:#372b7a;
+
+}
+
+.bar:hover{
+    fill: #17252A
+}
+
+#tooltip{
+    margin-top: 10px;
+    color: #FEFFFF;
+    font-size: 28px;
+}
+
+#title{
+    font-size: 30px;
+    fill: rgb(31, 86, 206);
+}
